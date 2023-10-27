@@ -1,0 +1,43 @@
+npm start
+npx create-expo-app blog
+npx expo start to virtual android
+and then press a button to open on android virtual device
+
+Yelpcamp key Jw0oIMgpId1HV8x-mogAapr36SVRDSAM00qOEvAmLyxCaOV1I0T6kzJbSvazjA6Q7sNS46uHfHzRzLLAESkHYv3ES50h-sUQwtwvh836OsN-D5UwO6ObMswyxDM6YXYx
+
+Client ID
+5cSmLJX8INxuQeFyNC1R1A
+
+API Key
+pPH4QmqeMTatst4UlN8PRZ7yERT-g7Ubd9ePJg9mSsm1xkbx2E0TQhYe9pVhLnTUSdSkSbvVL38S4oBBQRAZG1nCedJA-5d2-jaw5RSNzFYz5K9XtNnxoK45ZmxzZHYx
+
+npm install react-navigation --legacy-peer-deps
+
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view -- --legacy-peer-deps
+
+npm install react-navigation-stack @react-native-community/masked-view --legacy-peer-deps
+
+icons
+https://github.com/expo/vector-icons
+https://icons.expo.fyi/
+
+useState gia ena duo?
+useRecucer gia polla?
+useEffect to make sure a code is runned only one time when a component is first rendered (good for fetch)
+
+
+npm run db
+npm run tunnel
+
+SignupScreen.navigationOptions = () => {
+    return {
+      headerShown: false,
+    };
+  };
+
+144 opps typo included
+
+
+185 on will focus included
+
+<NavigationEvents onWillFocus={clearErrorMessage}
